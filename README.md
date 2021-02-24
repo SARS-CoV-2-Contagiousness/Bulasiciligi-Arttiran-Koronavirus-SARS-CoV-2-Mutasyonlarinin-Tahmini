@@ -16,6 +16,20 @@ Mutasyon kaynaklı S-protein stabilite ve ACE2’ye bağlanma değişimi deney v
 * Her iki algoritmadan elde edilen kümelerin analizi sonucunda çıkan en tehlikeli beş mutasyon listesinde ortak mutasyonların olduğu görülmektedir. Bu ortak mutasyonların da değerlendirilmesi ile uzlaşmalı olarak **N501M, Q414A, N354K, Q498H, N460K, N501W** altı adet mutasyonun, koronavirüsünün yayılmasında tehlikeli etkileri olma ihtimali yüksek mutasyonlar olarak belirlendi. 
 * Şu anda yaygın olan varyantlardan birinde görülen 501. pozisyon mutasyonuna özellikle dikkat edilmesi gerektiğini, bu listede 501 pozisyonunun tekrar etmesi üzerine özellikle önermekteyiz.
 
+| Cluster Sayısı | E484K'nin bulunduğu cluster | N501Y'nin bulunduğu cluster | E484K'nin bulunduğu cluster'daki eleman sayısı | N501Y'nin bulunduğu cluster'daki eleman sayısı |
+|----------------|-----------------------------|-----------------------------|------------------------------------------------|------------------------------------------------|
+| 2              | 1                           | 1                           | 445                                            | 445                                            |
+| 3              | 1                           | 1                           | 299                                            | 299                                            |
+| 4              | 3                           | 3                           | 164                                            | 164                                            |
+| 5              | 3                           | 3                           | 164                                            | 164                                            |
+| 6              | 5                           | 3                           | 118                                            | 66                                             |
+| 7              | 5                           | 3                           | 119                                            | 65                                             |
+| 8              | 1                           | 1                           | 57                                             | 57                                             |
+| 9              | 8                           | 8                           | 56                                             | 56                                             |
+| 10             | 9                           | 9                           | 30                                             | 30                                             |
+| 11             | 9                           | 9                           | 30                                             | 30                                             |
+| 12             | 9                           | 9                           | 29                                             | 29                                             |
+
 ## Kullanılan Verisetleri
 ### [Deneysel Veriseti](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Deneysel_veriseti.csv)
 SARS-CoV-2’nin S-proteininindeki Hedef Tanıma Modülü (HTM) bölgesi üzerindeki olası tüm mutasyonların ACE2 proteinine bağlanması üzerindeki etkilerini gösteren bir veriseti.
