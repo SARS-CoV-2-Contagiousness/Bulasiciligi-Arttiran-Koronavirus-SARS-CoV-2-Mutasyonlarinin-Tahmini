@@ -30,7 +30,9 @@ Mutasyon kaynaklı S-protein stabilite ve ACE2’ye bağlanma değişimi deney v
 | 11             | 9                           | 9                           | 30                                             | 30                                             |
 | 12             | 9                           | 9                           | 29                                             | 29                                             |
 
-## Kullanılan Verisetleri
+## Kullandığımız Dosyalar
 ### [Deneysel Veriseti](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Deneysel_veriseti.csv)
 SARS-CoV-2’nin S-proteininindeki Hedef Tanıma Modülü (HTM) bölgesi üzerindeki olası tüm mutasyonların ACE2 proteinine bağlanması üzerindeki etkilerini gösteren bir veriseti.
 ### [Özellikler](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Ozellikler.csv)
+Her bir aminoaside ait hidropati indeksi ve moleküler kütleyi gösteren veriseti.
+## [veriduzenleme.py](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/veriduzenleme.py)
