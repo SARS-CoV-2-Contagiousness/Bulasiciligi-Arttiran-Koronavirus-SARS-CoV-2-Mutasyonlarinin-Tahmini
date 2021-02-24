@@ -15,7 +15,7 @@ Mutasyon kaynaklı S-protein stabilite ve ACE2’ye bağlanma değişimi deney v
 * Beklenti maksimizasyonu kümeleme algoritması ile yapılan analizler sonucunda k=10 için hesaplanan 46 elemanlı 8. kümeye bakıldığında, stabilitesi en yüksek ilk beş mutasyon N501M, N354K, Q498H, N460K, N501W (stabilitesi en çoktan en aza göre sıralanmıştır) olarak belirlendi. Yine bu algoritmada da 501 pozisyonuna ait aynı mutasyonlar en tehlikeli beş mutasyon listesinde seçildi.
 * Her iki algoritmadan elde edilen kümelerin analizi sonucunda çıkan en tehlikeli beş mutasyon listesinde ortak mutasyonların olduğu görülmektedir. Bu ortak mutasyonların da değerlendirilmesi ile uzlaşmalı olarak **N501M, Q414A, N354K, Q498H, N460K, N501W** altı adet mutasyonun, koronavirüsünün yayılmasında tehlikeli etkileri olma ihtimali yüksek mutasyonlar olarak belirlendi. 
 * Şu anda yaygın olan varyantlardan birinde görülen 501. pozisyon mutasyonuna özellikle dikkat edilmesi gerektiğini, bu listede 501 pozisyonunun tekrar etmesi üzerine özellikle önermekteyiz.
-
+### K-means kümeleme algoritmasının sonuçları
 | Cluster Sayısı | E484K'nin bulunduğu cluster | N501Y'nin bulunduğu cluster | E484K'nin bulunduğu cluster'daki eleman sayısı | N501Y'nin bulunduğu cluster'daki eleman sayısı |
 |----------------|-----------------------------|-----------------------------|------------------------------------------------|------------------------------------------------|
 | 2              | 1                           | 1                           | 445                                            | 445                                            |
