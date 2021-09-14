@@ -45,3 +45,19 @@ Kodumuzdaki veriyial() fonksiyonu ile oluşturduğumuz, hedef tanıma modülü'n
 [veriseti](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/veriseti.csv) dosyasına kodumuzdaki yeniozellikekle() fonksiyonuyla halka sayısı farkı, hidrojen atomu sayısı farkı, oksijen atomu sayısı farkı, çift bağ sayısı farkı özelliklerini ekledik.
 ### [Veriseti Yeni Özellikler Bağlanma Sıfır ve Üstü](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Veriseti_Yeni_Ozellikler_Baglanma_Sifir_ve_Ustu.csv)
 [Veriseti Yeni Özellikler](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/veriseti_yeni_ozellikler) dosyasındaki bağlanma değeri (bind_avg) sıfır ve üstü olan mutasyonları seçtiğimiz veriseti. Bu verisetini oluşturmak için baglanmasıfırveustu() fonksiyonunu kullandık.
+
+# 2.Analiz
+2.Analizde mutasyon yerine interaksiyonları inceledik. Star ve Arkadaşlarının oluşturmuş olduğu RBD-ACE2 ikili interaksiyon verisi Python kodunda işleyerek çoklu interaksiyon verisi haline getirdik. Bu analizde probleme farklı bir açıdan yaklaşmış olup, sadece RBD'yi değil, RBD ve ACE2'yi beraber inceleyerek daha bütünsel bir analiz yapmış olduk.  
+
+## K-Means Analiz Grafiği
+| Küme Sayısı | Küme 0 Eleman Sayısı          | Küme 1 Eleman Sayısı  | Küme 2 Eleman Sayısı | Küme 3 Eleman Sayısı  | Küme 4 Eleman Sayısı | Küme 5 Eleman Sayısı | Küme 6 Eleman Sayısı |
+|-------------|-------------------------------|-----------------------|----------------------|-----------------------|----------------------|----------------------|----------------------|
+| 2           | 11(%52, K417 ve K484 burada)  | 10 (%48, Y501 burada) | 0                    | 0                     | 0                    | 0                    | 0                    |
+| 3           | 7 (%33,  K417 ve K484 burada) | 6 (%29)               | 8 (%38, Y501 burada) | 0                     | 0                    | 0                    | 0                    |
+| 4           | 5 (%24, 484K burada)          | 3 (%14)               | 8 (%38, 501Y burada) | 8 (%38, 501Y burada)  | 0                    | 0                    | 0                    |
+| 5           | 3 ( %14, K484 burada)         | 5 (%24)               | 2 (%10)              | 3 (%14, K417 burada)  | 8 (%38, Y501 burada) | 0                    | 0                    |
+| 6           | 3 (% 14, 484K burada)         | 5 (%24)               | 2 (%10)              | 3 (%14, K417 burada)  | 4 (%19)              | 4 (%19, 501Y burada) | 0                    |
+| 7           | 3 (% 14, K484 burada)         | 5 (%24)               | 2 (%10)              | 2 (%10)               | 4 (%19)              | 4 (%19, 501Y burada) | 1 (%5, K417 burada)  |
+
+## Sonuçlar 
+Bu analizimiz sonucunda, 
