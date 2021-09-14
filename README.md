@@ -59,5 +59,8 @@ Kodumuzdaki veriyial() fonksiyonu ile oluşturduğumuz, hedef tanıma modülü'n
 | 6           | 3 (% 14, 484K burada)         | 5 (%24)               | 2 (%10)              | 3 (%14, K417 burada)  | 4 (%19)              | 4 (%19, 501Y burada) | 0                    |
 | 7           | 3 (% 14, K484 burada)         | 5 (%24)               | 2 (%10)              | 2 (%10)               | 4 (%19)              | 4 (%19, 501Y burada) | 1 (%5, K417 burada)  |
 
+## Dosyalar
+[ACE2-RBD Kontacthttps://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/ACE2-RBD_contact_details.txt
+
 ## Sonuçlar 
 Bu analizimiz sonucunda, 
