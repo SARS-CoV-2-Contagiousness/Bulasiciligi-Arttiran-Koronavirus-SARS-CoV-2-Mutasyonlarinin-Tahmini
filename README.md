@@ -60,7 +60,7 @@ Kodumuzdaki veriyial() fonksiyonu ile oluşturduğumuz, hedef tanıma modülü'n
 | 7           | 3 (% 14, K484 burada)         | 5 (%24)               | 2 (%10)              | 2 (%10)               | 4 (%19)              | 4 (%19, 501Y burada) | 1 (%5, K417 burada)  |
 
 ## Dosyalar
-[ACE2-RBD İnteraksiyon Verisi](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/ACE2-RBD_contact_details.txt)
+### [ACE2-RBD İnteraksiyon Verisi](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/ACE2-RBD_contact_details.txt)
 ACE2 ve RBD tekli interaksiyon verisi içerir. Python kodumuzda, bir önceki analizimizdeki verilerle birleştirdik.
-[Açıklamalı Veri Düzenleme Kodu](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Veri_D%C3%BCzenleme.ipynb) 
+### [Açıklamalı Veri Düzenleme Kodu](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Veri_D%C3%BCzenleme.ipynb) 
 Veriyi Weka'da düzenlemeye uygun hale getirmek için kullanılan açıklamalı kod.
