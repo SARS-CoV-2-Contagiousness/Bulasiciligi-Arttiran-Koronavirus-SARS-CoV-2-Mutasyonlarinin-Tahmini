@@ -36,8 +36,8 @@ Mutasyon kaynaklı S-protein stabilite ve ACE2’ye bağlanma değişimi deney v
 SARS-CoV-2’nin S-proteininindeki Hedef Tanıma Modülü (HTM) bölgesindeki olası tüm nokta mutasyonların ACE2 proteinine bağlanması üzerindeki etkilerini gösteren deneysel veriseti.
 ### [Özellikler](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Ozellikler.csv)
 Her bir aminoaside ait hidropati indeksi ve moleküler kütleyi gösteren veriseti. Kullandığımız verisetlerini oluştururken buradaki özelliklerden yararlandık.
-### [veriduzenleme.py](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/veriduzenleme.py)
-Varolan bazı verisetlerinden aldığımız veriyi bu kodla birleştirip ve düzenleyip verisetlerimizi oluşturduk.
+###  [Veri Düzenleme Jupyter Notebook](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Veri%20Duzenleme%202.ipynb) | [Veri Düzenleme Python Script](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/veriduzenleme.py)
+Varolan bazı verisetlerinden aldığımız veriyi bu kodla birleştirip ve düzenleyip verisetlerimizi oluşturduk. Python script ve Jupyter Notebook formatlarında kodu inceleyebilirsiniz.
 ### [Veriseti](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/veriseti.csv)
 Kodumuzdaki veriyial() fonksiyonu ile oluşturduğumuz, hedef tanıma modülü'ndeki bütün mutasyonları ve bu mutasyonların hidropati farkı, moleküler kütle farkı, bağlanma ortalaması, ekspresyon ortalaması, polarite farkı ve hacim farkı özelliklerini bulunduran veriseti. Farkları hesaplarken mutant aminoaside ait olan özelliği vahşitip aminoasidinden çıkardık.
 ### [Veriseti Bağlanma Sıfır ve Üstü](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/veriseti_baglanma_sifir_ve_ustu)
