@@ -47,7 +47,7 @@ Kodumuzdaki veriyial() fonksiyonu ile oluşturduğumuz, hedef tanıma modülü'n
 ### [Veriseti Yeni Özellikler Bağlanma Sıfır ve Üstü](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Veriseti_Yeni_Ozellikler_Baglanma_Sifir_ve_Ustu.csv)
 [Veriseti Yeni Özellikler](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/veriseti_yeni_ozellikler) dosyasındaki bağlanma değeri (bind_avg) sıfır ve üstü olan mutasyonları seçtiğimiz veriseti. Bu verisetini oluşturmak için baglanmasıfırveustu() fonksiyonunu kullandık.
 
-# 2.Analiz
+# 2.Etap Analiz
 2.Analizde mutasyon yerine interaksiyonları inceledik. Star ve Arkadaşlarının oluşturmuş olduğu RBD-ACE2 ikili interaksiyon verisi Python kodunda işleyerek çoklu interaksiyon verisi haline getirdik. Bu analizde probleme farklı bir açıdan yaklaşmış olup, sadece RBD'yi değil, RBD ve ACE2'yi beraber inceleyerek daha bütünsel bir analiz yapmış olduk.  
 
 ## K-Means Analiz Grafiği
