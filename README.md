@@ -63,7 +63,7 @@ Kodumuzdaki veriyial() fonksiyonu ile oluşturduğumuz, hedef tanıma modülü'n
 ## Dosyalar
 ### [ACE2-RBD İnteraksiyon Verisi](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/ACE2-RBD_contact_details.txt)
 ACE2 ve RBD tekli interaksiyon verisi içerir. Python kodumuzda, bir önceki analizimizdeki elde ettiğimiz özellik listesiyle birleştirdik, tekli interaksiyon verisinden çoklu interaksiyon verisine çevirdik ve analize hazır hale getirdik.
-# [Açıklamalı Veri Düzenleme Kodu](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Veri_D%C3%BCzenleme.ipynb) 
+### [Açıklamalı Veri Düzenleme Kodu](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/Veri_D%C3%BCzenleme.ipynb) 
 Veriyi Weka'da düzenlemeye uygun hale getirmek için kullandığımız Jupyter Notebook. Veri üstüne yaptığımız işlemlerin kodları açıklamalarıyla beraber burada.
 ### [Çoklu İnteraksiyon Verisi](https://github.com/BiyoinformatikProje/Bulasiciligi-Arttiran-Koronavirus-SARS-CoV-2-Mutasyonlarinin-Tahmini/blob/main/%C3%87oklu%20%C4%B0nteraksiyon.csv)
 Açıklamalı veri düzenleme kodu kullanılarak hazıradığımız, verinin analizinde kullandığımız son halidir.
